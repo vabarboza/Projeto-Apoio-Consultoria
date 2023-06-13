@@ -15,6 +15,11 @@ npm run serve
 npm run build
 ```
 
+### Compiles and Publish
+```
+npm run build && firebase deploy
+```
+
 ### Lints and fixes files
 ```
 npm run lint
