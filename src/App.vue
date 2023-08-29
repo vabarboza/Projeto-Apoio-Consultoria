@@ -1,11 +1,13 @@
 <template>
+  <CarouselVue />
   <router-view />
   <footer class="page-footer font-small indigo pt-4 rounded-footer" style="padding-left: 0px;">
     <div class="container text-center text-md-left">
       <div class="row text-center text-md-left mt-3 pb-3">
         <div class="col-md-5 col-lg-5 col-xl-5 mx-auto mt-3">
           <h6 class="text-uppercase mb-4 font-weight-bold">APOIO – CONSULTORIA PARA MICROEMPREENDEDORES</h6>
-          <p class="font-small">A APOIO é uma consultoria especializada em oferecer suporte e consultoria personalizada para
+          <p class="font-small">A APOIO é uma consultoria especializada em oferecer suporte e consultoria personalizada
+            para
             microempreendedores. Com uma equipe de consultores experientes, fornecemos orientação abrangente em áreas como
             planejamento de negócios, estratégias de marketing, gestão financeira e organização operacional. Nosso
             objetivo é capacitar os microempreendedores, oferecendo conhecimentos e soluções práticas para impulsionar
@@ -14,13 +16,10 @@
         <hr class="w-100 clearfix d-md-none">
 
         <hr class="w-100 clearfix d-md-none">
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-          <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold">Links Uteis</h6>
           <p>
-            <a href="#!">Your Account</a>
-          </p>
-          <p>
-            <a href="#!">Become an Affiliate</a>
+            <a href="/contato">Torne-se um parceiro</a>
           </p>
           <p>
             <a href="#!">Shipping Rates</a>
@@ -31,7 +30,7 @@
         </div>
         <hr class="w-100 clearfix d-md-none">
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-          <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+          <h6 class="text-uppercase mb-4 font-weight-bold">Contato</h6>
           <p>
             <i class="fas fa-home mr-3"></i> New York, NY 10012, US
           </p>
@@ -41,17 +40,14 @@
           <p>
             <i class="fas fa-phone mr-3"></i> + 01 234 567 88
           </p>
-          <p>
-            <i class="fas fa-print mr-3"></i> + 01 234 567 89
-          </p>
         </div>
       </div>
       <hr>
       <div class="row d-flex align-items-center">
         <div class="col-md-7 col-lg-8">
-          <p class="text-center text-md-left">© {{ anoAtual }} Copyright:
+          <p class="text-center text-md-left font-small">© {{ anoAtual }} Copyright:
             <a href="/">
-              <strong> MDBootstrap.com</strong>
+              <strong> www.apoio.com.br</strong>
             </a>
           </p>
         </div>
@@ -95,7 +91,11 @@
 </style>
 
 <script>
+import CarouselVue from './components/CarouselVue.vue';
 export default {
+  components: {
+    CarouselVue
+  },
   data() {
     return {
       anoAtual: null

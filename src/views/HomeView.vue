@@ -44,7 +44,8 @@
           </div>
           <div class="col-sm-1 col-md-1"></div>
           <div class="col-sm-12 col-md-4">
-            <button type="button" class="btn btn-indigo btn-rounded waves-effect btn-block">ENTRAR EM CONTATO</button>
+            <button type="button" class="btn btn-indigo btn-rounded waves-effect btn-block"
+              onclick="location.href='/contato'">ENTRAR EM CONTATO</button>
           </div>
         </div>
 
@@ -55,36 +56,110 @@
             <p class="h4 font-weight-bold">Páginas Relacionadas</p>
           </div>
           <div class="row">
+
             <div class="col-xl-4 col-md-4 mb-3">
-              <div class="view overlay">
-                <img src="../assets/graficos.jpg" class="img-fluid"
-                  alt="Gráficos de análise financeira para consultoria empresarial MEI">
-                <div class="mask flex-center waves-effect waves-light rgba-indigo-strong">
-                  <p class="white-text p-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu
-                    lectus lobortis condimentum</p>
-                </div>
+              <div class="news-tile view zoom z-depth-1 rounded mb-4">
+                <a href="#!" class="text-white">
+                  <img src="../assets/graficos.jpg" class="img-fluid rounded-bottom" alt="sample image">
+                  <div class="mask flex-center waves-effect waves-light rgba-stylish-strong">
+                    <div class="text-white text-center">
+                      <div>
+                        <p class="white-text p-3 small">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                          eget ligula eu
+                          lectus lobortis condimentum</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
               </div>
             </div>
+
             <div class="col-xl-4 col-md-4 mb-3">
-              <div class="view overlay">
-                <img src="../assets/graficos.jpg" class="img-fluid"
-                  alt="Gráficos de análise financeira para consultoria empresarial MEI">
-                <div class="mask flex-center waves-effect waves-light rgba-indigo-strong">
-                  <p class="white-text p-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu
-                    lectus lobortis condimentum</p>
-                </div>
+              <div class="news-tile view zoom z-depth-1 rounded mb-4">
+                <a href="#!" class="text-white">
+                  <img src="../assets/graficos.jpg" class="img-fluid rounded-bottom" alt="sample image">
+                  <div class="mask flex-center waves-effect waves-light rgba-stylish-strong">
+                    <div class="text-white text-center">
+                      <div>
+                        <p class="white-text p-3 small">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                          eget ligula eu
+                          lectus lobortis condimentum</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
               </div>
             </div>
+
             <div class="col-xl-4 col-md-4 mb-3">
-              <div class="view overlay">
-                <img src="../assets/graficos.jpg" class="img-fluid"
-                  alt="Gráficos de análise financeira para consultoria empresarial MEI">
-                <div class="mask flex-center waves-effect waves-light rgba-indigo-strong">
-                  <p class="white-text p-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu
-                    lectus lobortis condimentum</p>
-                </div>
+              <div class="news-tile view zoom z-depth-1 rounded mb-4">
+                <a href="#!" class="text-white">
+                  <img src="../assets/graficos.jpg" class="img-fluid rounded-bottom" alt="sample image">
+                  <div class="mask flex-center waves-effect waves-light rgba-stylish-strong">
+                    <div class="text-white text-center">
+                      <div>
+                        <p class="white-text p-3 small">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                          eget ligula eu
+                          lectus lobortis condimentum</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
               </div>
             </div>
+
+            <div class="col-xl-4 col-md-4 mb-3">
+              <div class="news-tile view zoom z-depth-1 rounded mb-4">
+                <a href="#!" class="text-white">
+                  <img src="../assets/graficos.jpg" class="img-fluid rounded-bottom" alt="sample image">
+                  <div class="mask flex-center waves-effect waves-light rgba-stylish-strong">
+                    <div class="text-white text-center">
+                      <div>
+                        <p class="white-text p-3 small">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                          eget ligula eu
+                          lectus lobortis condimentum</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-xl-4 col-md-4 mb-3">
+              <div class="news-tile view zoom z-depth-1 rounded mb-4">
+                <a href="#!" class="text-white">
+                  <img src="../assets/graficos.jpg" class="img-fluid rounded-bottom" alt="sample image">
+                  <div class="mask flex-center waves-effect waves-light rgba-stylish-strong">
+                    <div class="text-white text-center">
+                      <div>
+                        <p class="white-text p-3 small">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                          eget ligula eu
+                          lectus lobortis condimentum</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-xl-4 col-md-4 mb-3">
+              <div class="news-tile view zoom z-depth-1 rounded mb-4">
+                <a href="#!" class="text-white">
+                  <img src="../assets/graficos.jpg" class="img-fluid rounded-bottom" alt="sample image">
+                  <div class="mask flex-center waves-effect waves-light rgba-stylish-strong">
+                    <div class="text-white text-center">
+                      <div>
+                        <p class="white-text p-3 small">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                          eget ligula eu
+                          lectus lobortis condimentum</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+
           </div>
         </div>
 
@@ -94,10 +169,8 @@
           <div class="row no-gutters mb-3">
             <p class="h4 font-weight-bold">Nossos Parceiros</p>
           </div>
-
-
           <div class="row">
-            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="col-sm-6 col-md-3">
               <div class="p-4">
                 <div class="avatar w-100 white d-flex justify-content-center align-items-center">
                   <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(9).jpg"
@@ -106,14 +179,13 @@
                 <div class="text-center mt-3">
                   <h6 class="font-weight-bold pt-2">Alan Turing</h6>
                   <p class="text-muted">
-                    <small><i>Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit.</i></small>
+                    <small><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</i></small>
                   </p>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="col-sm-6 col-md-3">
               <div class="p-4">
                 <div class="avatar w-100 white d-flex justify-content-center align-items-center">
                   <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(2).jpg"
@@ -122,14 +194,13 @@
                 <div class="text-center mt-3">
                   <h6 class="font-weight-bold pt-2">Nathalie Fry</h6>
                   <p class="text-muted">
-                    <small><i>Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit.</i></small>
+                    <small><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</i></small>
                   </p>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="col-sm-6 col-md-3 mb-3">
               <div class="p-4">
                 <div class="avatar w-100 white d-flex justify-content-center align-items-center">
                   <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(8).jpg"
@@ -138,13 +209,13 @@
                 <div class="text-center mt-3">
                   <h6 class="font-weight-bold pt-2">Billy Turner</h6>
                   <p class="text-muted">
-                    <small><i>Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit.</i></small>
+                    <small><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</i></small>
                   </p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+
+            <div class="col-sm-6 col-md-3 mb-3">
               <div class="p-4">
                 <div class="avatar w-100 white d-flex justify-content-center align-items-center">
                   <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(4).jpg"
@@ -153,15 +224,12 @@
                 <div class="text-center mt-3">
                   <h6 class="font-weight-bold pt-2">Veronica Smith</h6>
                   <p class="text-muted">
-                    <small><i>Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit.</i></small>
+                    <small><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</i></small>
                   </p>
                 </div>
               </div>
             </div>
           </div>
-
-
         </div>
 
       </div>
