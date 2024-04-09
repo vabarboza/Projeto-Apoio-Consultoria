@@ -22,23 +22,23 @@
             <a href="/contato">Torne-se um parceiro</a>
           </p>
           <p>
-            <a href="#!">Shipping Rates</a>
+            <a href="#!">Link de acesso</a>
           </p>
           <p>
-            <a href="#!">Help</a>
+            <a href="#!">Link de acesso</a>
           </p>
         </div>
         <hr class="w-100 clearfix d-md-none">
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
           <h6 class="text-uppercase mb-4 font-weight-bold">Contato</h6>
           <p>
-            <i class="fas fa-home mr-3"></i> New York, NY 10012, US
+            <i class="fas fa-home mr-3"></i> Endereço 
           </p>
           <p>
-            <i class="fas fa-envelope mr-3"></i> info@gmail.com
+            <i class="fas fa-envelope mr-3"></i> email@gmail.com
           </p>
           <p>
-            <i class="fas fa-phone mr-3"></i> + 01 234 567 88
+            <i class="fas fa-phone mr-3"></i> (99) 99999-9999
           </p>
         </div>
       </div>
